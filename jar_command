@@ -1,0 +1,2 @@
+jar -cvf MYPROGRAMSRC/myprogram.jar -C CLASSES/ .
+

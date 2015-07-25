@@ -1,0 +1,1 @@
+$HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.4.1.jar -files mapper.py,reducer.py  -mapper mapper.py -reducer reducer.py -input /user/dmisra2/input/bioasqsample.txt -output /user/dmisra2/output
